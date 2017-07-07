@@ -1,0 +1,10 @@
+
+#F98866---------ImageColor
+
+#89DA59---------ShadingColor
+
+#80BD9E ---------BackgroundColor
+
+#FF420E ---------TextColor
+
+

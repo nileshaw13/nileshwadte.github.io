@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+/********************** Intrduction Page   **********************/
+ 
+#Intrduction{
+  background-image: url("../img/Background_01.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: fixed;
+  width: auto;
+  height: 638px;
+}
+
+.intro_row{
+  width: auto;
+  height: 638px;
+}
+
+/****  Header  ********/
+.navbar{
+  border: 1px solid black;
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 50px;
+  border-radius: 4px;
+}
+
+.navbar-brand{
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.navbar-nav{
+  
+}
+
+.navbar-nav>li>a{
+  color: #ccccb6;
+  margin-right: 5px;
+}
+
+.navbar-nav>li :hover{
+  color: #fff;
+  background-color: #fb4729;
+  border-radius: 4px; 
+}
+
+.navbar-nav> li.active > a, .navbar-nav> li.active > a:hover, .navbar-nav> li.active > a:focus {
+    color: #fff;
+    background-color: #fb4729;
+    border-radius: 4px; 
+}
+
+.navbar-toggler{
+  margin-left: 10px;
+}
+
+/*********  End Header  ******/
+
+/**Intro Text**/
+.button{
+  font-size: 23px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 28px;
+  color: #fff;
+  background-color: #fb4729;
+  margin-top: 19px;
+  width: 150px;
+  height: 40px;
+}
+
+.button:hover{
+  color: #fb4729;
+  background-color: #fff;
+}
+
+#first_jumbotron{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color: inherit;
+    background: transparent;    
+}
+
+#first_jumbotron h3{
+    color: #ccccb6;
+    letter-spacing: 5px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#first_jumbotron h3 span{
+    color: #fb4729;
+}
+
+#first_jumbotron h1{
+    letter-spacing: 2px;
+    font-size: 60px;
+    font-weight: 500;
+    color: #ccccb6;
+}
+
+.myimg{
+  margin-top: 23px;
+  height: 565px;
+}
+/**End Intro Text**/
+
+/********************** End Intrduction Page **********************/
+
+ /********************** Academics Page **********************/
+  #Academics{
+    width: auto;
+    height: 650px;
+    background-color: lightblue;
+  }
+ /********************** End Academics Page **********************/
+
+ /********************** Skills Page   **********************/
+   #Skills{
+    width: auto;
+    height: 650px;
+    background-color: skyblue;
+  }
+ /********************** End Skills Page   **********************/
+
+ /********************** Projects Page   **********************/
+  #Projects{
+    width: auto;
+    height: 450px;
+    background-color: lightgreen;
+  }
+ /********************** End Projects Page   **********************/
+
+ /********************** Contacts Page   **********************/
+  #Projects{
+    width: auto;
+    height: 550px;
+    background-color: lightgray;
+  }
+ /********************** End contact Page   **********************/
+
